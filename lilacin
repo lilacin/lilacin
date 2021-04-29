@@ -21,9 +21,18 @@ License
 ## download progs.csv from Luke's repo
 curl -O https://raw.githubusercontent.com/LukeSmithxyz/LARBS/master/progs.csv
 ## customize progs.csv for your own needs
+sed -i '
+  /gtk-theme-arc-gruvbox-git/d
+  /mpc/d
+  /mpd/d
+  /ncmpcpp/d
+  /ttf-linux-libertine/d
+  /unclutter/d
+  /xcompmgr/d
+  /xwallpaper/d
+  ' progs.csv
 cat <<'progs.csv' >>'progs.csv'
   ,libreoffice-fresh,"is the feature branch, with new program enhancements."
-  ,virtualbox,"is an x86 and AMD64/Intel64 virtualization product."
   ,noto-fonts-cjk,"covers Chinese, Japanese, and Korean font family."
   ,fcitx-chewing,"is a Zhuyin input engine for Chinese based on libchewing."
   ,fcitx-configtool,"is a GTK3 based configuration tool for Fcitx."
@@ -35,10 +44,6 @@ curl -O https://raw.githubusercontent.com/LukeSmithxyz/LARBS/master/larbs.sh
 sed -i '/refreshkeys/a pacman -Syyu --noconfirm' larbs.sh
 cat <<'larbs.sh' >>'larbs.sh'
   sed -i '
-    s/setbg/#&/
-    s/mpd/#&/
-    s/xcompmgr/#&/
-    s/unclutter/#&/
     $a VBoxClient --vmsvga
     $a fcitx &
     $a (sleep 9 && xdotool key Super+a) &
