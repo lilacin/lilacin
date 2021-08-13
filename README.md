@@ -38,6 +38,6 @@ sh lilacin
 
 #### How to install Arch Linux? (the quick way)
 
-- [arcolinux/alci-iso-pure](//osdn.net/projects/alci/releases/p17534)
+- [arcolinux/alci-iso-pure](//alci.online/downloads)
 - [archlinux/archinstall](//github.com/archlinux/archinstall)
 - [MatMoul/archfi](//github.com/MatMoul/archfi)
