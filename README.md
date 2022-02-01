@@ -41,3 +41,4 @@ sh lilacin
 - [arcolinux/alci-iso-pure](//alci.online/downloads)
 - [archlinux/archinstall](//github.com/archlinux/archinstall)
 - [MatMoul/archfi](//github.com/MatMoul/archfi)
+- [helmuthdu/aui](//github.com/helmuthdu/aui)
