@@ -1,10 +1,10 @@
 # Lilacin
 
-[**L**](lilacin)ilacin [**i**](lilacin)nstalls [**L**](lilacin)arbs [**a**](lilacin)fter [**c**](lilacin)ustomizing [**i**](lilacin)t [**n**](lilacin)icely.
+Lilacin installs Larbs after customizing it nicely.
 
 Lilacin is an efficient shell script that automatically configures a fully functioning [Arch Linux](//archlinux.org/) environment emphasizing minimalist aesthetics.
 
-By default, Lilacin customizes and installs [**L**ukeSmithxyz](//lukesmith.xyz)'s **A**uto-**R**ice **B**ootstrapping **S**cripts ([Larbs](//github.com/LukeSmithxyz/LARBS)) that deploys [Voidrice](//github.com/LukeSmithxyz/voidrice) and [dwm](//github.com/LukeSmithxyz/dwm).
+By default, Lilacin customizes and installs [LukeSmithxyz](//larbs.xyz/)'s Auto-Rice Bootstrapping Scripts ([Larbs](//github.com/LukeSmithxyz/LARBS)) that deploys [Voidrice](//github.com/LukeSmithxyz/voidrice) and [dwm](//github.com/LukeSmithxyz/dwm).
 
 ### Usage
 
